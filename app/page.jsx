@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
     return (
         <div>
-            <h1 className=" text-5xl font-medium mb-16">Home</h1>
+            <h1 className=" text-5xl font-medium mb-16">Cuboost Movies</h1>
 
             <div className="grid gap-16 grid-cols-2 md:grid-cols-3 w-full">
                 <Link className=" bg-gradient-to-br from-teal-500 to-cyan-600 p-10 flex justify-center items-center flex-col gap-5 text-slate-100 rounded-3xl cursor-pointer hover:scale-105 transition" href={"/popular"}>

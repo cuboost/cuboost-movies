@@ -4,7 +4,7 @@ import logo from "public/logo.svg";
 
 export default function Navbar() {
     return (
-        <div className="flex justify-between mx-10 w-full items-center mb-6">
+        <div className="flex justify-between mx-10 w-full items-center mb-14">
             <Link href={"/"}>
                 <Image src={logo} alt="Logo" className=" w-20 select-none" draggable="false" />
             </Link>

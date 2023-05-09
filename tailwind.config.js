@@ -14,6 +14,10 @@ module.exports = {
       },
       gridTemplateColumns: {
         fluid: "repeat(auto-fit,minmax(15rem,1fr))"
+      },
+      height: {
+        "192": "48rem",
+        "150": "34rem"
       }
     },
   },

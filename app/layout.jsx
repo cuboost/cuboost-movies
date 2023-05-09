@@ -6,7 +6,7 @@ import { Open_Sans } from 'next/font/google';
 const openSans = Open_Sans({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Movies',
+  title: 'Cuboost Movies',
   description: 'Explore new movies!',
 };
 
